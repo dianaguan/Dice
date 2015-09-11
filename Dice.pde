@@ -45,6 +45,7 @@ class Die //models one single dice cube
         //your code here
         background(255);
         stroke(10);
+        fill(0);
         rect(thisX,thisY,rectWidth,rectWidth);
         if (numDots == 1){
           fill(0);
