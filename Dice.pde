@@ -9,8 +9,8 @@ void draw()
 {
     //your code here
     background(255);
-    for(int y = 1; y<1000; y+=100){
-      for(int x = 1; x<1000; x+=100){
+    for(int y = 0; y<1000; y+=100){
+      for(int x = 0; x<1000; x+=100){
         //ellipse(x,y,10,10);
         Die one = new Die(x,y);
         one.roll();
